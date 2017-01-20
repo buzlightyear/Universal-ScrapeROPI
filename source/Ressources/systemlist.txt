@@ -1,0 +1,225 @@
+Adventure Vision|Adventure Vision
+Aes|Mame
+Amiga|Amiga
+Amstrad - CPC|CPC
+Amstrad CPC|CPC
+Amstradcpc|CPC
+Apple II|Apple II
+AppleII|Apple II
+Apple2|Apple II
+Apple 2|Apple II
+Arcade|Mame
+Arcadia|Arcadia 2001
+Arcadia2001|Arcadia 2001
+Arcadia 2001|Arcadia 2001
+Atari - 2600|Atari 2600
+Atari - 5200|Atari 5200
+Atari - 7800|Atari 7800
+Atari - 800|Atari 800
+Atari - Jaguar|Jaguar
+Atari - Lynx|Lynx
+Atari - ST|Atari ST
+Atari 2600|Atari 2600
+Atari 5200|Atari 5200
+Atari 7800|Atari 7800
+Atari 800|Atari 800
+Atari ST|Atari ST
+Atari2600|Atari 2600
+Atari5200|Atari 5200
+Atari7800|Atari 7800
+Atari800|Atari 800
+Atarilynx|Lynx
+Atarist|Atari ST
+Bandai - WonderSwan|WonderSwan
+Bandai - WonderSwan Color|WonderSwan Color
+C64|Commodore 64
+Casio - Loopy|Loopy
+Casio - PV-1000|PV-1000
+Cavestory|PC Windows
+Channel F|Channel F
+Coleco - ColecoVision|Colecovision
+Colecovision|Colecovision
+Commodore - 64|Commodore 64
+Commodore - 64 (PP)|Commodore 64
+Commodore - 64 (Tapes)|Commodore 64
+Commodore - Amiga|Amiga
+Commodore - Plus-4|Plus/4
+Commodore - VIC-20|Vic-20
+Commodore 64|Commodore 64
+CPC|CPC
+Cps1|Mame
+Cps2|Mame
+Cps3|Mame
+Daphne|Daphne
+Dc|Dreamcast
+Doom|PC Dos
+Dragon 32|Dragon 32/64
+Dragon 32/64|Dragon 32/64
+Dragon 3264|Dragon 32/64
+Dragon 32-64|Dragon 32/64
+Dragon 64|Dragon 32/64
+Dragon32|Dragon 32/64
+Dragon32/64|Dragon 32/64
+Dragon3264|Dragon 32/64
+Dragon32-64|Dragon 32/64
+Dragon64|Dragon 32/64
+Dreamcast|Dreamcast
+Emerson - Arcadia 2001|Arcadia 2001
+Entex - Adventure Vision|Adventure Vision
+Epoch - Super Cassette Vision|Super Cassette Vision
+Fairchild - Channel F|Channel F
+Famicom Disk System|Family Computer Disk System
+Family Computer Disk System|Family Computer Disk System
+FB Alpha|Mame
+FB Alpha - Arcade Games|Mame
+Fba|Mame
+Fba_libretro|Mame
+FBAlpha|Mame
+Fds|Family Computer Disk System
+Funtech - Super Acan|Super A'can
+Game & Watch|Game & Watch
+Game Boy|Game Boy
+Game Boy Advance|Game Boy Advance
+Game Boy Color|Game Boy Color
+Game Gear|Game Gear
+Game Master|Game Master
+Game.com|Game.com
+Gamecom|Game.com
+Gamecube|Gamecube
+Gamegear|Game Gear
+GamePark - GP32|GP32
+Gb|Game Boy
+Gba|Game Boy Advance
+Gbc|Game Boy Color
+GCE - Vectrex|Vectrex
+Genesis|Megadrive
+GP32|GP32
+Gw|Game & Watch
+Hartung - Game Master|Game Master
+Jaguar|Jaguar
+Loopy|Loopy
+Lutro|Mame
+Lynx|Lynx
+Magnavox - Odyssey2|Videopac G7000
+Mame|Mame
+Mame-advmame|Mame
+Mame-libretro|Mame
+Mame-mame4all|Mame
+Mark III|Master System
+Master System|Master System
+Mastersystem|Master System
+Mega Drive|Megadrive
+MegaCD|Mega-CD
+Mega-CD|Mega-CD
+Megadrive|Megadrive
+Megadrive 32X|Megadrive 32X
+Microsoft - MSX|MSX
+Microsoft - MSX 2|MSX
+Microsoft - MSX2|MSX
+Msx|MSX
+Msx1|MSX
+Msx2|MSX
+Mvs|Mame
+N64|Nintendo 64
+NEC - PC Engine - TurboGrafx 16|PC Engine
+NEC - PC Engine SuperGrafx|PC Engine SuperGrafx
+NEC - Super Grafx|PC Engine SuperGrafx
+Neogeo|Mame
+Neo-Geo|Mame
+NeoGeo AES|Mame
+Neo-Geo AES|Mame
+Neogeo MVS|Mame
+Neo-Geo MVS|Mame
+Neo-Geo Pocket|Neo-Geo Pocket
+Neo-Geo Pocket Color|Neo-Geo Pocket Color
+Nes|NES
+N-Gage|N-Gage
+Ngp|Neo-Geo Pocket
+Ngpc|Neo-Geo Pocket Color
+Nintendo - Famicom Disk System|Family Computer Disk System
+Nintendo - Family Computer Disk System|Family Computer Disk System
+Nintendo - Game Boy|Game Boy
+Nintendo - Game Boy Advance|Game Boy Advance
+Nintendo - Game Boy Advance (e-Cards)|Game Boy Advance
+Nintendo - Game Boy Color|Game Boy Color
+Nintendo - Game Cube|Gamecube
+Nintendo - Nintendo 64|Nintendo 64
+Nintendo - Nintendo 64DD|Nintendo 64
+Nintendo - Nintendo DS|Nintendo DS
+Nintendo - Nintendo DSi|Nintendo DS
+Nintendo - Nintendo DSi (DLC)|Nintendo DS
+Nintendo - Nintendo Entertainment System|NES
+Nintendo - Satellaview|Satellaview
+Nintendo - Sufami Turbo|Sufami Turbo
+Nintendo - Super Nintendo Entertainment System|Super Nintendo
+Nintendo - Virtual Boy|Virtual Boy
+Nintendo - Wii|Wii
+Nintendo 64|Nintendo 64
+Nokia - N-Gage|N-Gage
+O2em|Videopac G7000
+Odyssey2|Videopac G7000
+PC Engine|PC Engine
+PC Engine SuperGrafx|PC Engine SuperGrafx
+Pcengine|PC Engine
+Pcenginecd|PC Engine CD-Rom
+Philips - Videopac+|Videopac G7000
+Playstation|Playstation
+Plus/4|Plus/4
+Plus4|Plus/4
+Plus-4|Plus/4
+Prboom|PC Dos
+Psp|PSP
+Psx|Playstation
+PV-1000|PV-1000
+Satellaview|Satellaview
+Scummvm|ScummVM
+Sega - 32X|Megadrive 32X
+Sega - Dreamcast|Dreamcast
+Sega - Game Gear|Game Gear
+Sega - Genesis|Megadrive
+Sega - Mark III|Master System
+Sega - Master System|Master System
+Sega - Master System - Mark III|Master System
+Sega - Mega Drive|Megadrive
+Sega - Mega Drive - Genesis|Megadrive
+Sega - Mega-CD|Mega-CD
+Sega - SG-1000|SG-1000
+Sega32x|Megadrive 32X
+Segacd|Mega-CD
+Sega-CD|Mega-CD
+Sg1000|SG-1000
+Sg-1000|SG-1000
+Sinclair - ZX Spectrum +3|ZX Spectrum
+Snes|Super Nintendo
+SNK - Neo Geo Pocket|Neo-Geo Pocket
+SNK - Neo Geo Pocket Color|Neo-Geo Pocket Color
+Sony - Playstation|Playstation
+Sony - PSP|PSP
+Sufami Turbo|Sufami Turbo
+Super Acan|Super A'can
+Super A'can|Super A'can
+Super Cassette Vision|Super Cassette Vision
+Super Nintendo|Super Nintendo
+Super Nintendo Entertainment System|Super Nintendo
+Supergrafx|PC Engine SuperGrafx
+Tiger - Game.com|Game.com
+TurboGrafx 16|PC Engine
+TurboGrafx16|PC Engine
+V.Smile|V.Smile
+Vectrex|Vectrex
+Vic20|Vic-20
+Vic-20|Vic-20
+Videopac|Videopac G7000
+Videopac G7000|Videopac G7000
+Virtual Boy|Virtual Boy
+Virtualboy|Virtual Boy
+VSmile|V.Smile
+VTech - V.Smile|V.Smile
+Wii|Wii
+Wonderswan|WonderSwan
+Wonderswancolor|WonderSwan Color
+Wswan|WonderSwan
+Wswanc|WonderSwan Color
+ZX Spectrum|ZX Spectrum
+Zx81|ZX81
+Zxspectrum|ZX Spectrum

@@ -1,0 +1,83 @@
+[15:52:55] - C:\temporanea\Universal-XML-Scraper-2.1.0.3\Scraper64.exe (1.1.0.2)
+[15:52:55] - WIN_10(X64) - 0410
+[15:52:55] - > systemlist.xml Opened
+[15:52:58] - > Read Message $aRomList : Super Donkey Kong 3 - Nazo no Krems-tou (Japan).zip{Break}\\retrorangepi\roms\snes\Super Donkey Kong 3 - Nazo no Krems-tou (Japan).zip{Break}Super Donkey Kong 3 - Nazo no Krems-tou (Japan){Break}1{Break}3172639{Break}B2B17180{Break}A24976543D6AFC2DDD4548FD0B5A3776{Break}D48C722B239EAEC966CEF872D189B01672D8F841{Break}C:\temporanea\Universal-XML-Scraper-2.1.0.3\TEMP\Super Donkey Kong 3 - Nazo no Krems-tou (Japan).xml{Break}1{Break}{Break}{Break}
+[15:52:58] - > Read Message $vBoucle : 2
+[15:52:58] - > Read Message $aConfig : \\retrorangepi\roms\snes\gamelist.xml{Break}\\retrorangepi\roms\snes{Break}./{Break}\\retrorangepi\downloaded_images\snes{Break}./downloaded_images/snes{Break}0{Break}0{Break}0{Break}0000{Break}it|en{Break}%COUNTRY%|it|eu|us|jp|wor|ss{Break}C:\temporanea\Universal-XML-Scraper-2.1.0.3\Ressources\regionlist.txt{Break}4{Break}{Break}
+[15:52:58] - > Read Message $vProfilsPath : C:\temporanea\Universal-XML-Scraper-2.1.0.3\ProfilsFiles\Retrorangepi.xml
+[15:52:58] - > -----Making Super Donkey Kong 3 - Nazo no Krems-tou (Japan)
+[15:52:58] - > Creating Element
+[15:52:58] - > /Profil/Element[1]/Target_Type = XML_Attribute
+[15:52:58] - > COUNTRY Data/jeu/id=2181
+[15:52:58] - > game <-- 2181
+[15:52:58] - > Creating Element
+[15:52:58] - > /Profil/Element[2]/Target_Type = XML_Attribute
+[15:52:58] - > game <-- ScreenScraper
+[15:52:58] - > Creating Element
+[15:52:58] - > /Profil/Element[3]/Target_Type = XML_Value
+[15:52:58] - > game/path <-- ./Super Donkey Kong 3 - Nazo no Krems-tou (Japan).zip
+[15:52:58] - > Creating Element
+[15:52:58] - > /Profil/Element[4]/Target_Type = XML_Value_FORMAT
+[15:52:58] - > COUNTRY Data/jeu/noms/nom_=
+[15:52:58] - > COUNTRY Data/jeu/noms/nom_it=
+[15:52:58] - > COUNTRY Data/jeu/noms/nom_eu=
+[15:52:58] - > COUNTRY Data/jeu/noms/nom_us=Donkey Kong Country 3 : Dixie Kong's Double Troubl
+[15:52:58] - > game/name <-- Donkey Kong Country 3 : Dixie Kong's Double Troubl
+[15:52:58] - > Creating Element
+[15:52:58] - > /Profil/Element[5]/Target_Type = XML_Value
+[15:52:58] - > game/desc <-- This time both Donkey Kong and Diddy Kong have been kong-napped by a mysterious new leader of the Kremlings, and it's up to Dixie and new team mate Kiddy Kong to save the day.
+
+New elements to the series includes the Brother Bears, thirteen Bears who, if you pay them with Bear Coins found in each level, will aid you in your quest by building certain items. Also, new bonus mission have you playing a 1st/3rd person shooter style party game. Plus a host of new enemies, the usual huge end of world bosses and a collection of the Kong family who will help you out as best they can.
+
+[15:52:58] - > Creating Element
+[15:52:58] - > /Profil/Element[6]/Target_Type = XML_Path
+[15:52:59] - > \\retrorangepi\downloaded_images\snes\Super Donkey Kong 3 - Nazo no Krems-tou (Japan)-image.jpg File already exist
+[15:52:59] - > game/image <-- ./downloaded_images/snesSuper Donkey Kong 3 - Nazo no Krems-tou (Japan)-image.jpg
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[7]/Target_Type = XML_Path
+[15:52:59] - > game[* = "./downloaded_images/snesSuper Donkey Kong 3 - Nazo no Krems-tou (Japan)-image.jpg"] Already exist in XML ( 1)
+[15:52:59] - > game/image <-- -1
+[15:52:59] - > game/image <-- No value to write
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[8]/Target_Type = /home/pi/.emulationstation/downloaded_images/%system%
+[15:52:59] - > End Of Elements
+[15:52:59] - > Read Message $aRomList : Super Mario World (Europe).zip{Break}\\retrorangepi\roms\snes\Super Mario World (Europe).zip{Break}Super Mario World (Europe){Break}1{Break}346213{Break}ACA09C27{Break}2F189A05CAE595027201617E66BEE23D{Break}AFCB97EA7D9228C304C1D9548C58774C2F7E995D{Break}C:\temporanea\Universal-XML-Scraper-2.1.0.3\TEMP\Super Mario World (Europe).xml{Break}1{Break}{Break}{Break}
+[15:52:59] - > Read Message $vBoucle : 3
+[15:52:59] - > Read Message $aConfig : \\retrorangepi\roms\snes\gamelist.xml{Break}\\retrorangepi\roms\snes{Break}./{Break}\\retrorangepi\downloaded_images\snes{Break}./downloaded_images/snes{Break}0{Break}0{Break}0{Break}0000{Break}it|en{Break}%COUNTRY%|it|eu|us|jp|wor|ss{Break}C:\temporanea\Universal-XML-Scraper-2.1.0.3\Ressources\regionlist.txt{Break}4{Break}{Break}
+[15:52:59] - > Read Message $vProfilsPath : C:\temporanea\Universal-XML-Scraper-2.1.0.3\ProfilsFiles\Retrorangepi.xml
+[15:52:59] - > -----Making Super Mario World (Europe)
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[1]/Target_Type = XML_Attribute
+[15:52:59] - > COUNTRY Data/jeu/id=2144
+[15:52:59] - > game <-- 2144
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[2]/Target_Type = XML_Attribute
+[15:52:59] - > game <-- ScreenScraper
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[3]/Target_Type = XML_Value
+[15:52:59] - > game/path <-- ./Super Mario World (Europe).zip
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[4]/Target_Type = XML_Value_FORMAT
+[15:52:59] - > COUNTRY Data/jeu/noms/nom_us=
+[15:52:59] - > COUNTRY Data/jeu/noms/nom_it=
+[15:52:59] - > COUNTRY Data/jeu/noms/nom_eu=
+[15:52:59] - > COUNTRY Data/jeu/noms/nom_us=
+[15:52:59] - > COUNTRY Data/jeu/noms/nom_jp=Super Mario World: Super Mario Bros. 4
+[15:52:59] - > game/name <-- Super Mario World: Super Mario Bros. 4
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[5]/Target_Type = XML_Value
+[15:52:59] - > game/desc <-- Once again, the evil Bowser has captured Princess Peach (while on a holiday on Yoshi's Island), and it's up to Mario to save her. To aid him in his quest, Mario must use the flying ability of the feather to get him to places hard to reach. But what's even more important is his new friend, the dinosaur Yoshi, who Mario can ride through each level and eat the enemies.
+
+Over 90 levels are on offer, with plenty of Bowser's evil koopas and new characters around each level. Apart from saving Peach, you can also save some of Yoshi's friends, other dinosaurs that each have a special attack. Each level also contains a set of extra items to collect, including dinosaur coins, and break the tape at the end of each level to collect stars, that allow you to open up the bonus games.
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[6]/Target_Type = XML_Path
+[15:52:59] - > \\retrorangepi\downloaded_images\snes\Super Mario World (Europe)-image.jpg File already exist
+[15:52:59] - > game/image <-- ./downloaded_images/snesSuper Mario World (Europe)-image.jpg
+[15:52:59] - > Creating Element
+[15:52:59] - > /Profil/Element[7]/Target_Type = XML_Path
+[15:53:00] - > game[* = "./downloaded_images/snesSuper Mario World (Europe)-image.jpg"] Already exist in XML ( 1)
+[15:53:00] - > game/image <-- -1
+[15:53:00] - > game/image <-- No value to write
+[15:53:00] - > Creating Element
+[15:53:00] - > /Profil/Element[8]/Target_Type = /home/pi/.emulationstation/downloaded_images/%system%
+[15:53:00] - > End Of Elements

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>XPath</title>
+	<style>
+		body{
+			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+			font-size: 0.8em;
+		}
+		#xml{
+			border: 1px solid #4682B4;
+			background-color: #F0F8FF;
+			width: 330px;
+			padding: 1mm;
+		}
+		.odsaz1{
+			position: relative;
+			left: 20px;
+		}
+		.odsaz2{
+			position: relative;
+			left: 40px;
+		}
+
+		table{
+			border: 1px solid #A9A9A9;
+			border-collapse: collapse;
+			background-color: white;
+			font-size: 0.9em;
+		}
+		table th{
+			background-color: #F5FFFA;
+		}
+		table td{
+			border: 1px solid #A9A9A9;
+			padding: 4px 2px 4px 2px;
+		}
+		.example{
+			width: 240px;
+			color: red;
+		}
+		.expression{
+			font-weight: bold;
+		}
+		.priklad{
+			color: red;
+			background-color: white;
+			font-weight: normal;
+		}
+	</style>
+</head>
+<body>
+	<h4>What is XPath?</h4>
+	<ul>
+		<li>XPath is a syntax for defining parts of an XML document</li>
+		<li>XPath uses path expressions to navigate in XML documents</li>
+		<li>XPath contains a library of standard functions</li>
+		<li>XPath is a major element in XSLT</li>
+		<li>XPath is a W3C Standard</li>
+	</ul>
+	<h4>XPath Path Expressions</h4>
+	<p>
+		XPath uses path expressions to select nodes or node-sets in an XML document. 
+		These path expressions look very much like the expressions you see when you work with a traditional computer file system.
+	</p>
+	<div id="xml">
+		<div>&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;</div>
+		<div>&lt;bookstore&gt;</div>
+		<div class="odsaz1">&lt;book&gt;</div>
+	  	<div class="odsaz2">&lt;title lang="eng"&gt;About CSS&lt;/title&gt;</div>
+	  	<div class="odsaz2">&lt;price&gt;16&lt;/price&gt;</div>
+		<div class="odsaz1">&lt;/book&gt;</div>
+		<div class="odsaz1">&lt;book&gt;</div>
+	  	<div class="odsaz2">&lt;title lang="eng"&gt;Learning XML&lt;/title&gt;</div>
+	  	<div class="odsaz2">&lt;price&gt;39&lt;/price&gt;</div>
+		<div class="odsaz1">&lt;/book&gt;</div>
+		<div class="odsaz1">&lt;book&gt;</div>
+	  	<div class="odsaz2">&lt;title lang="cze"&gt;Learning SVG&lt;/title&gt;</div>
+	  	<div class="odsaz2">&lt;price&gt;23&lt;/price&gt;</div>
+		<div class="odsaz1">&lt;/book&gt;</div>
+		<div>&lt;/bookstore&gt;</div>
+	</div>
+	<br />
+	<br />
+	<table>
+		<thead>
+			<tr>
+				<th>Expression</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="expression">/</td>
+				<td>Selects from the root node</td>
+			</tr>
+			<tr>
+				<td class="expression">//</td>
+				<td>Selects nodes in the document from the current node that matches the selection no matter where they are</td>
+			</tr>
+			<tr>
+				<td class="expression">.</td>
+				<td>Selects the current node</td>
+			</tr>
+			<tr>
+				<td class="expression">..</td>
+				<td>Selects the parent of the current node</td>
+			</tr>
+			<tr>
+				<td class="expression">@</td>
+				<td>Selects attributes</td>
+			</tr>
+			<tr>
+				<td class="expression">*</td>
+				<td>Matches any element node</td>
+			</tr>
+			<tr>
+				<td class="expression">@*</td>
+				<td>Matches any attribute node</td>
+			</tr>
+			<tr>
+				<td class="expression">node()</td>
+				<td>Matches any node of any kind</td>
+			</tr>
+		</tbody>
+	</table>
+	<br />
+	<br />
+	<table>
+		<thead>
+			<tr>
+				<th>Examples</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="example">/bookstore</td>
+				<td>Selects the root element bookstore</td>
+			</tr>
+			<tr>
+				<td class="example">//book</td>
+				<td>Selects all book elements no matter where they are in the document</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore//book</td>
+				<td>Selects all book elements that are descendant of the bookstore element, no matter where they are under the bookstore element</td>
+			</tr>
+			<tr>
+				<td class="example">//@lang</td>
+				<td>Selects all attributes that is named lang</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore/book[1]</td>
+				<td>Selects the first book element that is the child of the bookstore element</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore/book[last()]</td>
+				<td>Selects the last book element that is the child of the bookstore element</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore/book[last()-1]</td>
+				<td>Selects the last but one book element that is the child of the bookstore element</td>
+			</tr>
+			<tr>
+				<td class="example">//title[@lang]</td>
+				<td>Selects all the title elements that have an attribute named lang</td>
+			</tr>
+			<tr>
+				<td class="example">//title[@lang='eng']</td>
+				<td>Selects all the title elements that have an attribute named lang with a value of 'eng'</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore/book[price>20]</td>
+				<td>Selects all the book elements of the bookstore element that have a price element with a value greater than 20</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore/book[price>20]/title</td>
+				<td>Selects all the title elements of the book elements of the bookstore element that have a price element with a value greater than 20</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore/*</td>
+				<td>Selects all the child nodes of the bookstore element</td>
+			</tr>
+			<tr>
+				<td class="example">//*</td>
+				<td>Selects all elements in the document</td>
+			</tr>
+			<tr>
+				<td class="example">//title[@*]</td>
+				<td>Selects all title elements which have any attribute</td>
+			</tr>
+			<tr>
+				<td class="example">//book/title | //book/price</td>
+				<td>Selects all the title AND price elements of all book elements</td>
+			</tr>
+			<tr>
+				<td class="example">//title | //price</td>
+				<td>Selects all the title AND price elements in the document</td>
+			</tr>
+			<tr>
+				<td class="example">/bookstore/book/title | //price</td>
+				<td>Selects all the title elements of the book element of the bookstore element AND all the price elements in the document</td>
+			</tr>
+		</tbody>
+	</table>
+	<br />
+	<br />
+	<h4>Custom Functions</h4>
+	<table>
+		
+		<thead>
+			<tr>
+				<th>XPath Type</th>
+				<th>Functions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="expression">Node set</td>
+				<td>last(), position(), count(), id(), local-name(), namespace-uri(), name()</td>
+			</tr>
+			<tr>
+				<td class="expression">String</td>
+				<td>string(), concat(), starts-with(), contains(), substring-before(), substring-after(), substring(), string-length(), normalize-space(), translate()</td>
+			</tr>
+			<tr>
+				<td class="expression">Boolean</td>
+				<td>boolean(), not(), true(), false(), lang()</td>
+			</tr>
+			<tr>
+				<td class="expression">Number</td>
+				<td>number(), sum(), floor(), ceiling(), round()</td>
+			</tr>
+			<tr>
+				<td class="expression">XSLT 1.0 additions</td>
+				<td>document(), key(), format-number(), current(), unparsed-entity-uri(), generate-id(), system-property()</td>
+			</tr>
+		</tbody>
+	</table>
+	<br />
+	<div><a href="http://www.w3.org/TR/xpath#corelib">More ...</a></div>
+	<br />
+	<br />
+	<br />
+	<br />
+</body>
+</html>

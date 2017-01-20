@@ -1,0 +1,205 @@
+</NEED_TO_BE_TRANSLATED>
+
+<datapref>
+	<langpref>de|en</langpref>
+	<countrypref>%COUNTRY%|de|eu|us|jp|wor|ss</countrypref>
+</datapref>
+
+<error>
+	<err_title>Fehler</err_title>
+	<err_PathRom>ROM-Pfad nicht gefunden</err_PathRom>
+	<err_FillRomList>Keine Datei gefunden</err_FillRomList>
+	<err_autoconfPathRom>ROM-Pfad für Autokonfiguration nicht gefunden</err_autoconfPathRom>
+	<err_UXSGlobal>In Universal XML Scraper ist ein Problem aufgetreten !</err_UXSGlobal>
+	<err_Connection>(Problem beim Verbinden zur Datenbank)</err_Connection>
+	<err_TimeOut>(Time Out)</err_TimeOut>
+	<err_SystemList>(err_SystemList)</err_SystemList>
+	<err_ScrapeEngine>(Fehler beim Start der Scrape Engine. Vielen Dank, dass Sie Ihr Antivirus überprüfen)</err_ScrapeEngine>
+	<err_PlinkGlobal>SSH Befehl verursachte ein Problem</err_PlinkGlobal>
+	<err_PlinkConnection>(Verbindung konnte nicht hergestellt werden)</err_PlinkConnection>
+	<err_NotRegistered>Entschuldigung, dein Account konnte nicht gefunden werden (bitte überprüfe deine Logindaten)</err_NotRegistered>
+</error>
+
+<message>
+	<mess_autoconf>Autokonfiguration wird durchgeführt</mess_autoconf>
+	<mess_autoconf_ask_Title>Autokonfiguration</mess_autoconf_ask_Title>
+	<mess_autoconf_ask_Question>Möchtest du die Autokonfiguration benutzen ?</mess_autoconf_ask_Question>
+	<mess_ssh_killall>Bist du dir sicher, dass du Emulationstation beenden willst ?</mess_ssh_killall>
+	<mess_ssh_start>Bist du dir sicher, dass du Emulationstation starten willst ?</mess_ssh_start>
+	<mess_ssh_reboot>Bist du dir sicher dass du das System neustarten willst ?</mess_ssh_reboot>
+	<mess_ssh_poweroff>Bist du dir sicher, dass du das System ausschalten willst ?</mess_ssh_poweroff>
+	<mess_update_Title>Update nötig</mess_update_Title>
+	<mess_update_Question>Aktualisierung</mess_update_Question>
+	<mess_ssregister_title>Erfolgreich eingeloggt</mess_ssregister_title>
+	<mess_ssregister_OK>Durch deinen Account erhälst du ein Maximum </mess_ssregister_OK>
+	<mess_ssregister_GodMode>Du bist : ein Gott, ein Halbgott (oder zumindest ein 2/3 Gott) oder Chuck Norris. Sei vorsichtig !!!</mess_ssregister_GodMode>
+</message>
+
+<gui>
+	<main_gui>Universal XML Scraper V2</main_gui>
+	<menu>
+		<mnu_file>Datei</mnu_file>
+		<mnu_file_exit>Beenden</mnu_file_exit>
+		
+		<mnu_cfg>Einstellungen</mnu_cfg>
+		<mnu_cfg_Wizard>Starten Sie den Assistenten</mnu_cfg_Wizard>
+		<mnu_cfg_config_LU>Dateipfade</mnu_cfg_config_LU>
+		<mnu_cfg_config_MISC>Allgemein</mnu_cfg_config_MISC>
+		<mnu_cfg_config_Option>Optionen</mnu_cfg_config_Option>
+		<mnu_cfg_config_PIC>Bilder</mnu_cfg_config_PIC>
+		<mnu_cfg_config_autoconf>Autokonfiguration</mnu_cfg_config_autoconf>
+		<mnu_cfg_profil>Profil wechseln</mnu_cfg_profil>
+		<mnu_cfg_miximage>Mix-Image Profil wechseln</mnu_cfg_miximage>
+		<mnu_cfg_download_miximage>Mix-Image Herunterladen</mnu_cfg_download_miximage>
+		<mnu_cfg_langue>Sprache wechseln</mnu_cfg_langue>
+		
+		<mnu_scrape>Scrape</mnu_scrape>
+		<mnu_scrape_autoconf>System wählen (Autokonf.)</mnu_scrape_autoconf>
+		<mnu_scrape_solo>Scrape </mnu_scrape_solo>
+		<mnu_scrape_fullscrape>Scrape alle Systeme</mnu_scrape_fullscrape>
+		
+		<mnu_ssh>SSH Befehle</mnu_ssh>
+		<mnu_ssh_Parameter>SSH-Parameter</mnu_ssh_Parameter>
+		<mnu_ssh_killall>Emulationstation beenden</mnu_ssh_killall>
+		<mnu_ssh_start>Emulationstation starten</mnu_ssh_start>
+		<mnu_ssh_reboot>System neustarten</mnu_ssh_reboot>
+		<mnu_ssh_poweroff>System ausschalten</mnu_ssh_poweroff>
+		
+		<mnu_help>Hilfe</mnu_help>
+		<mnu_help_wiki>Help (wiki)</mnu_help_wiki>
+		<mnu_help_support>Help us</mnu_help_support>
+		<mnu_help_link>Links</mnu_help_link>
+		<mnu_help_about>Über</mnu_help_about>
+	</menu>
+	<windows>
+		<scrap_button>Scrape!</scrap_button>
+		<scrap_cancel_button>Abbrechen</scrap_cancel_button>
+		<win_sel_langue>
+			<win_sel_langue_Title>Sprache wählen</win_sel_langue_Title>
+			<win_sel_langue_text>Sprache wählen</win_sel_langue_text>
+			<win_sel_langue_button>Auswählen</win_sel_langue_button>
+		</win_sel_langue>
+		<win_sel_profil>
+			<win_sel_profil_Title>Profil wählen</win_sel_profil_Title>
+			<win_sel_profil_text>Profil wählen</win_sel_profil_text>
+			<win_sel_profil_button>Auswählen</win_sel_profil_button>
+		</win_sel_profil>
+		<win_sel_system>
+			<win_sel_system_Title>System wählen</win_sel_system_Title>
+			<win_sel_system_text>System wählen</win_sel_system_text>
+			<win_sel_system_button>Auswählen</win_sel_system_button>
+		</win_sel_system>
+		<win_config>
+			<win_config_LU_Title>Dateipfade</win_config_LU_Title>
+			<win_config_LU_GroupScrap>Scraper</win_config_LU_GroupScrap>
+			<win_config_LU_GroupScrap_Source_RootPath>ROM-Pfad zum Scrapen</win_config_LU_GroupScrap_Source_RootPath>
+			<win_config_LU_GroupScrap_Source_RomPath>ROM-Pfad zum Scrapen</win_config_LU_GroupScrap_Source_RomPath>
+			<win_config_LU_GroupScrap_Target_XMLName>XML Dateipfad</win_config_LU_GroupScrap_Target_XMLName>
+			<win_config_LU_GroupScrap_Target_RomPath>ROM-Pfad in der XML-Datei</win_config_LU_GroupScrap_Target_RomPath>
+			<win_config_LU_GroupImage>Bilder</win_config_LU_GroupImage>
+			<win_config_LU_GroupImage_Source_ImagePath>Pfad für heruntergeladene Bilder</win_config_LU_GroupImage_Source_ImagePath>
+			<win_config_LU_GroupImage_Target_ImagePath>Bilder-Pfad in der XML-Datei</win_config_LU_GroupImage_Target_ImagePath>
+			
+			<win_config_PIC_Title>Bilder</win_config_PIC_Title>
+			<win_config_PIC_GroupPICParam>Bild-Eigenschaften</win_config_PIC_GroupPICParam>
+			<win_config_PIC_GroupPICParam_PicSize>Bildgröße</win_config_PIC_GroupPICParam_PicSize>
+			<win_config_PIC_GroupPICParam_PicExt>Dateityp</win_config_PIC_GroupPICParam_PicExt>
+			
+			<win_config_Option_Title>Optionen</win_config_Option_Title>
+			<win_config_Option_GroupOption>Option die geändert werden soll</win_config_Option_GroupOption>
+			<win_config_Option_GroupOption_Choice>Auswahl</win_config_Option_GroupOption_Choice>
+			<win_config_Option_GroupParam>Parameter die geändert werden sollen</win_config_Option_GroupParam>
+			
+			<win_config_MISC_Title>Allgemein</win_config_MISC_Title>
+			<win_config_MISC_GroupMISC>Sonstiges</win_config_MISC_GroupMISC>
+			<win_config_MISC_GroupMISC_CountryPref>Regions-Priorität</win_config_MISC_GroupMISC_CountryPref>
+			<win_config_MISC_GroupMISC_LangPref>Sprach-Priorität</win_config_MISC_GroupMISC_LangPref>
+			<win_config_MISC_GroupMISC_ScrapeMode>Scrape-Modus</win_config_MISC_GroupMISC_ScrapeMode>
+			<win_config_MISC_GroupMISC_ScrapeModeChoice>0 - Neue XML-Datei|1 - XML-Datei aktualisieren (Roms hinzufügen)|2 - Nur Bild erstellen</win_config_MISC_GroupMISC_ScrapeModeChoice>
+			<win_config_MISC_GroupMISC_ScrapeSearchMode>Forschungsmodus</win_config_MISC_GroupMISC_ScrapeSearchMode>
+			<win_config_MISC_GroupMISC_ScrapeSearchModeChoice>0 - CRC+FileName|1 - CRC|2 - FileName</win_config_MISC_GroupMISC_ScrapeSearchModeChoice>
+			<win_config_MISC_GroupMISC_CountryPicMode>Bild-Auswahl</win_config_MISC_GroupMISC_CountryPicMode>
+			<win_config_MISC_GroupMISC_CountryPicModeChoice>0 - nach Sprache|1 - nach Rom|2 - nach Sprache - strikt|3 - nach Rom - strikt</win_config_MISC_GroupMISC_CountryPicModeChoice>
+			<win_config_MISC_GroupMISC_Verbose>Log-Modus</win_config_MISC_GroupMISC_Verbose>
+			<win_config_MISC_GroupMISC_VerboseChoice>0 - standard|1 - erweitert|2 - komplett</win_config_MISC_GroupMISC_VerboseChoice>
+			<win_config_MISC_GroupMISC_MissingMode>Fehlende Roms in XML-Datei hinzufügen</win_config_MISC_GroupMISC_MissingMode>
+			<win_config_MISC_GroupMISC_RechSys>automatische Systemauswahl</win_config_MISC_GroupMISC_RechSys>
+			<win_config_MISC_GroupMISC_Mirror>Use DigiMirror</win_config_MISC_GroupMISC_Mirror>
+			<win_config_MISC_GroupScreenScraper>Screenscraper.fr</win_config_MISC_GroupScreenScraper>
+			<win_config_MISC_GroupScreenScraper_Login>Screenscraper.fr Login</win_config_MISC_GroupScreenScraper_Login>
+			<win_config_MISC_GroupScreenScraper_Password>Screenscraper.fr Passwort</win_config_MISC_GroupScreenScraper_Password>
+			<win_config_MISC_GroupScreenScraper_NbThread>Thread Anzahl</win_config_MISC_GroupScreenScraper_NbThread>
+			<win_config_MISC_GroupScreenScraper_Check>überprüfen</win_config_MISC_GroupScreenScraper_Check>
+			<win_config_MISC_GroupScreenScraper_SSRegister>auf Screenscraper.fr registrieren</win_config_MISC_GroupScreenScraper_SSRegister>
+			<win_config_MISC_GroupRechFiles>gescrapte Dateien</win_config_MISC_GroupRechFiles>
+			<win_config_MISC_GroupRechFiles_Include>inbegriffene Dateien</win_config_MISC_GroupRechFiles_Include>
+			<win_config_MISC_GroupRechFiles_Exclude>ausgeschlossene Dateien</win_config_MISC_GroupRechFiles_Exclude>
+			<win_config_MISC_GroupRechFiles_ExcludeFolder>ausgeschlossene Ordner</win_config_MISC_GroupRechFiles_ExcludeFolder>
+			
+			<win_config_autoconf_Title>Autokonfiguration Dateipfade</win_config_autoconf_Title>
+			<win_config_autoconf_Use>Autokonfiguration benutzen</win_config_autoconf_Use>
+			<win_config_autoconf_GroupScrap>Scraper</win_config_autoconf_GroupScrap>
+			<win_config_autoconf_GroupScrap_Source_RootPath>Systempfad</win_config_autoconf_GroupScrap_Source_RootPath>
+			<win_config_autoconf_GroupScrap_Target_XMLName>XML Dateiname</win_config_autoconf_GroupScrap_Target_XMLName>
+			<win_config_autoconf_GroupScrap_Target_RomPath>ROM-Pfad in der XML-Datei</win_config_autoconf_GroupScrap_Target_RomPath>
+			<win_config_autoconf_GroupImage>Bilder</win_config_autoconf_GroupImage>
+			<win_config_autoconf_GroupImage_Source_ImagePath>Ordner-Name, in den die Bilder heruntergeladen werden</win_config_autoconf_GroupImage_Source_ImagePath>
+			<win_config_autoconf_GroupImage_Target_ImagePath>Bilder-Pfad in der XML-Datei</win_config_autoconf_GroupImage_Target_ImagePath>
+
+			<win_config_Enreg>Speichern</win_config_Enreg>
+			<win_config_Cancel>Abbrechen</win_config_Cancel>
+			<win_config_Advanced>Erweitert</win_config_Advanced>
+		</win_config>
+		<win_config_mix>
+			<win_config_mix_Title>Mix-Image Konfiguration</win_config_mix_Title>
+			<win_config_mix_empty>Leeres Beispiel</win_config_mix_empty>
+			<win_config_mix_exemple>Beispiel</win_config_mix_exemple>
+			<win_config_mix_Enreg>Speichern</win_config_mix_Enreg>
+			<win_config_mix_Cancel>Abbrechen</win_config_mix_Cancel>
+		</win_config_mix>
+		<win_config_mix_Download>
+			<win_config_mix_Download_Title>Mix-Image Herunterladen</win_config_mix_Download_Title>
+			<win_config_mix_Download_empty>Leeres Beispiel</win_config_mix_Download_empty>
+			<win_config_mix_Download_exemple>Beispiel</win_config_mix_Download_exemple>
+			<win_config_mix_Download_Download>Herunterladen</win_config_mix_Download_Download>
+			<win_config_mix_Download_Exit>Ausschalten</win_config_mix_Download_Exit>
+		</win_config_mix_Download>
+		<win_About>
+			<win_About_Title>Über</win_About_Title>
+			<win_About_By>Autor : Screech</win_About_By>
+			<win_About_Thanks>Dankeschön an :</win_About_Thanks>
+		</win_About>
+		<win_Results>
+			<win_Results_Title>Scrape-Ergebnisse</win_Results_Title>
+			<win_Results_Text>Scrapen beendet</win_Results_Text>
+			<win_Results_FilesFound>Dateien gefunden : </win_Results_FilesFound>
+			<win_Results_RomsFound>Roms gefunden : </win_Results_RomsFound>
+			<win_Results_PercentFound>Gefundene Roms in Prozent : </win_Results_PercentFound>
+			<win_Results_MoyTime>Durchschnittszeit für ein Rom : </win_Results_MoyTime>
+			<win_Results_FullTime>Gesamte Zeit : </win_Results_FullTime>
+			<win_Results_NbThread>Thread(s) benutzt : </win_Results_NbThread>
+		</win_Results>
+		<win_Wizard>
+			<win_Wizard_Next>Weiter</win_Wizard_Next>
+			<win_Wizard_Back>Zurück</win_Wizard_Back>
+			<win_Wizard_End>OK</win_Wizard_End>
+			<win_Wizard_Cancel>Abbrechen</win_Wizard_Cancel>
+			<win_Wizard_Profil>
+				<win_Wizard_Profil_Title>Profil Auswahl</win_Wizard_Profil_Title>
+				<win_Wizard_Profil_Desc>Hier kannst du das entsprechende Profil für dein Betriebssystem auswählen.|!||!|Die MIX-Version erstellt aus verschiedenen Bildern, wie Screenshot, 3D Box und Spiel-Logo, ein einzelnes Bild für das jeweilige Spiel.|!||!|Das MIX-Profil kann im Menü geändert werden : |!|"Mix-Image Profil wechseln"|!|oder später in diesem Assistenten.</win_Wizard_Profil_Desc>
+			</win_Wizard_Profil>
+			<win_Wizard_Autoconf>
+				<win_Wizard_Autoconf_Title>Autokonfigurations-Pfad</win_Wizard_Autoconf_Title>
+				<win_Wizard_Autoconf_Desc>Mit Hilfe der Autokonfiguration können einzelne, oder auch alle Systeme gescraped werden, ohne vorher die einzelnen Pfade konfigurieren zu müssen.|!||!|Der standard Pfad (entsprechend dem gewählten Profil) befindet sich unter diesem Text.|!|Der Pfad kann durch einen eigenen Systempfad geändert werden .|!||!|Beispiel :|!|deine SNES Roms befinden sich in|!|E:\Emulation\Rom\SNES,|!|demnach lautet der Systempfad|!|E:\Emulation\Rom</win_Wizard_Autoconf_Desc>
+			</win_Wizard_Autoconf>
+			<win_Wizard_MIX>
+				<win_Wizard_MIX_Title>MIX-Image Profil Auswahl</win_Wizard_MIX_Title>
+				<win_Wizard_MIX_Desc>Ein MIX-Image Profil wurde gewählt|!||!|Das Bild das vom UXS-Template generiert wird, kann im nächsten Fenster gewählt werden.|!||!|ACHTUNG! Manche MIX-Image Profile benötigen ein bestimmtes "Theme" im genutzten FrontEnd.|!|(Beispielsweise das "Full Back" Profil)|!|Weitere Informationen - falls benötigt - findest du im Wiki.</win_Wizard_MIX_Desc>
+			</win_Wizard_MIX>
+			<win_Wizard_END>
+				<win_Wizard_END_Title>Ende des Assistenten</win_Wizard_END_Title>
+				<win_Wizard_END_Desc>Die grundlegende UXS-Konfiguration ist hiermit beendet.|!||!|Du kannst nun ein System unter|!|"Scrape"|!|->"System wählen (Autokonf.)"|!|wählen, und deinen ersten Scrape-Vorgang starten.|!||!|Vielen Dank dass du Universal XML Scraper nutzt.</win_Wizard_END_Desc>
+			</win_Wizard_END>
+		</win_Wizard>
+	</windows>
+</gui>

@@ -1,0 +1,422 @@
+2.1.0.3
+* Corrected :
+ - Filename check is with extension now...
+ - Neo-Geo scrape now return correct info.
+* Added :
+ - Some security on Target XML file selection.
+ 
+2.1.0.2
+* Corrected :
+ - Time out on the new experimental function (Hash with SSH command directly on the PI)
+ - Add a \ before space and ' when Hash from the PI
+* Added :
+ - 7za.exe instead of standard windows dll.
+ - Experimental Option to Hash from the PI in General option.
+ - New MIX Template in repository (thank you Brandoskey)
+
+2.1.0.1
+* Corrected :
+ - SSH command will work now (I hope :S).
+ - Some Translation refresh.
+ - Some problem on country preference (when you choose a 2D Box for exemple)
+* Added :
+ - Japanese translation in beta (Thank you yorn.jp)
+ - SSH Timeout
+
+2.1.0.0
+* Corrected :
+ - SSH command will work now.
+ - 2 New Retropie Profil with Video.
+* Added :
+ - 2 New Retropie Profil with Video.
+ - Use of regionsListe.php API is OK now (Country will be translated in your language)
+ - Use <regionshortname> for data and media country (so now if you rom is spanish, you will have spanish media for exemple).
+* COMMENT :
+ - New server and new website for www.screenscraper.fr
+ - Lot's of new things (media for every country, new tools for admin,...)
+ - Sorry for these last days pertubation.
+ - The new website still in "test" so some pertubation can happen some time. We are debbuging as fast as we can.
+ - Thank you all for your support.
+
+2.0.0.9
+* Corrected :
+ - message "Hashing Please Wait..." where buggy :S I add the rom name and now it works well ;)
+* Added :
+ - Experimental Function to HASH only MD5 directly on the PI (Thank you giventofly)
+	To use it, add this in the UXS-Config.ini :
+	$vHashOnPI=1
+	$vRootPathOnPI=/recalbox/share/roms
+	($vRootPathOnPI is the local path on the PI to the roms folders)
+	This function is faster for big file, but slower for small file ;) take care.
+* coming soon (Screenscraper V2):
+ - using regionsListe.php API to get the countrylist.xml in all language
+ 
+2.0.0.8
+* Corrected :
+ - New Option to scrape only by Filename (for all language this time :S )
+ - Reorganize Hash Calculation on big file (Prio is MD5 all the time, SHA1 < 500Mo, CRC32 < 50Mo) MD5 is the fastest calculation.
+* Added :
+ - message "Hashing Please Wait..." when hashing big file (to not think UXS freeze one big file)
+ - iso and img will autohide (and not scraped) when cue, ccd,... exist.
+
+2.0.0.7
+* Corrected :
+ - Language and Country paramater now are saved correctly
+ - Scummvm profil now work well (scraping the directory AND the file)
+* Added :
+ - Dutch Translation. (Thank you Shampiken for the translation)
+ 
+2.0.0.6
+* Corrected :
+ - Better "Time Left" function
+ - Scraper Handle take too much CPU when waiting. (Thank you Verybadsoldier for the correction)
+ - Zipscrape function corrected. (Thank you Verybadsoldier for the correction)
+ - SSH paramater now are saved correctly
+* Added :
+ - New Menu to download New MIX Template from the Github repository
+ - New Scrape Mode : "Create Picture Only" (Re create picture without changing XML File)
+ - New Option to scrape only by CRC
+ - New Option to scrape only by Filename (usefull for very big roms, but less accurate)
+ - Italian Translation. (Thank you Cricetomutante for the translation)
+ 
+2.0.0.5
+* Corrected :
+ - Message to kill ES don't append when in fullscrape
+ - Better "Time left" feature
+ - Correcting the Plink SSH Command (Thank you Shakz76 for the correction)
+
+2.0.0.4
+* Corrected :
+ - Alternative picture doesn't work all the time, now work every time.
+ - Name in missing.tx aren't troncated any more when too longue...
+ - Resluts windows now show correct number for "found" roms.
+* Added :
+ - Message to kill ES when network path are detected
+ - New Menu to configure SSH Parameter
+ - adding a new tag for Path config : %host% = first part of the Source_RootPath (ex : \\Retropie\rom will give \\Retropie and E:\rom will give E:\)
+ - Retropie path corrected (Again... Sorry)
+
+2.0.0.3
+* Corrected :
+ - Fallback when Digimirror don't work
+ - Scraper.exe and Scraper64.exe better update function
+ - Error Message when Scrape engine doesn't start (google translated)
+* Added :
+ - NO-Into and other matching folder name in systemlist.txt
+ - Progress bar in UXS Icon
+
+2.0.0.2
+* Corrected :
+ - Added a Timeout for Check Engine start (If TimedOut, check your Firewall and/or Antivirus)
+ - Standard Name format will be only Game Name (No more country added)
+* Added :
+ - Log gui to show log, with last log put in clipboard when the GUI is canceled
+ - 2 Retropie Profil with Sselph's path
+
+2.0.0.1
+* Corrected :
+ - Recalbox default path for autoconfig weren't good
+Really sorry about this :S
+
+2.0.0.0
+First STABLE Version !!!!
+* Corrected :
+ - no more system selection GUI in FullScrape
+ - UriEncode for the ' problem corrected
+ - Missing Rom option Corrected
+ - Missing Rom generate a MIX if missing rom option is on
+ - If Name Format = %Name+Country% and no country found, no more (Unknown)
+ - Retropie path corrected
+* Added
+ - showing Changelog in update windows
+ - Check Engine start on scrape
+ - Included extensions are now profil dependant (they are not the same between Retropie and Recalbox)
+
+2.0.0.6 BETA
+* Corrected :
+ - French, German, spanish and english translation correction.
+ - First rom sometime doesn't be scrapped corrected.
+ - Include/Exclude label size corrected
+ - Registering link with Digimirror corrected.
+ - Some roms don't be scraped because of "not allowed" characteres corrected.
+* Added :
+ - New XML Include
+ - Bypass research function (to make dedicated profil for some system like scummvm)
+ - New Mix Profil to Test SCUMMVM on Recalbox V4 (MIX)
+ - Rewrite of path option to add some tag : 
+  + %SystemDir% = Full path to the system directory
+  + %System% = Name of the System directory
+  + %Source_RootPath% = Path to the local Root
+ - Rewrite of Retropie Profil to match Retropie Path (to test)
+ - New function to scrape IN zip files when zip file rom isn't found. (THANKS A LOT verybadsoldier)
+
+2.0.0.5 BETA
+* Corrected :
+ - Issue with no image found and compression corrected.
+
+2.0.0.4 BETA
+* Corrected :
+ - Include/Exclude Label Size to small in generale config corrected.
+ - PngQuant in MIX profil don't work corrected.
+ - Size and quality for MaxResize MIX profil doesn't work very well corrected.
+* Added :
+ - Help, Thanks, and support Menu
+ - Cache function (by default) It use the DigiMirror
+ - Uppercase option for some text info (in Option Menu)
+ - Hide Scraper.exe and Scraper64.exe to not confuse...
+
+2.0.0.3 BETA
+* Added :
+ - German Translation (Thanks to Madmeggo, Paradadf and Lackyluuk)
+ - Spanish Translation (Thanks to Paradadf)
+* Corrected :
+ - Resizing (ratio problem in Fullback theme) corrected.
+ - Minor bug corrected.
+* Preparing :
+ - Screenscraper Cache system
+
+2.0.0.2 BETA
+* Preparing :
+ - language file for translation
+* Corrected :
+ - System selection corrected
+
+2.0.0.1 BETA
+* Corrected :
+ - Option name corrected
+ - Source always = 0 corrected
+* Added :
+ - "_" to the missing file name
+
+2.0.0.0 BETA
+* Total rewrote of XML functions
+* Total rewrote of GDI functions (the one who make the MIX ^^)
+* Now all Scraping profil are in XML with tone of options
+* Now all MIX profil are in XML with also tone of options
+* Multithread, you can have several rom scraped at the same time. For this you need to register on Screenscraper (with a single registration you will have 2 threads, if you participate to the BDD you can have up to 10 threads.)
+* Wizard at start to help the first configuration
+* Scrape with recursivity (subfolder can now be scraped)
+* lot's of configuration menu (but they are easy to understand... And I need to make tooltips :p )
+* Autoconfiguration and Fullscrape work
+* New function to handle timeout and network problem
+* Changing standard things are easy now (2D Box instead of Screenshot, Game Name with region,...)
+* Autohide function (Bios are auto hidden, and if you have a cue+bin, the bin will be hide too.. So are the "track" files) and it's configurable in the XML Scrape profil
+... Lot's of more things I can't remember... 3 month on this ^^
+
+-----------------------------------------------------------
+
+1.5.0.11
+Minor bug correction On Profil
+Minor bug correction On exclusion list
+Minor bug correction On FileName (Character "&")
+Adding a "Quick Mode" for big file (Only CRC32 hash, no MD5 or SHA1)
+
+1.5.0.10
+Minor bug correction On language preference
+
+1.5.0.9
+Minor bug correction On Picture preference
+
+1.5.0.8
+Adding a value in Ini :
+$Picture_Region = 2 -> Picture preference by Rom Region only
+
+1.5.0.7
+Adding a value in Ini :
+$Picture_Region = 0 -> Picture preference by User Language
+$Picture_Region = 1 -> Picture preference by Rom Region + preference by User Language
+
+1.5.0.6
+Adding a Tidy function to clean up the XML
+
+1.5.0.5
+Minor bug correction On filename function
+
+1.5.0.4
+UXS Update Verfication at start
+
+1.5.0.3
+Adding 2 New function to Profil :
+'name|value|noms/nom_%%|form:region' -> Scraped name + scraped region
+'name|value|noms/nom_%%|form:%FileNameBracket%' -> Scraped name + bracket info from filename
+
+1.5.0.2
+Adding 2 New function to Profil :
+'name|value|%RomName%|variable' -> Full filename of the rom
+'name|value|%RomNameShort%|variable' -> Filename of the rom without extension.
+
+1.5.0.1
+Minor bug correction
+Adding a Rotation function to Mix Image
+
+1.5.0.0
+All New Mix Image engine
+Adding a transparancy function to Mix Image
+Adding a Merge function to Mix Image
+Adding a Cut function to Mix Image
+Adding Relativ position to Mix Image
+
+1.4.0.5
+Correction to the autodetect system
+Adding New Mix image (Beta)
+
+1.4.0.4
+Addeing MD5 to missing.txt file
+Update Timeout function to not stop the scrape
+
+1.4.0.3
+Adding Start emulationstation in SSH menu
+Correction for the multilang datas
+
+1.4.0.2
+Minor bug correction
+
+1.4.0.1
+Date, Synopsys and Genre now adapte in your own language
+
+1.4.0.0
+Screenscraper change to a full multilang Data
+Modification UXS accordingly
+
+1.3.0.16
+Added Spanish language (Thanks to Paradadf)
+
+1.3.0.15
+Adding an advanced configuration menu
+
+1.3.0.14
+Added multilang message for SSH
+
+1.3.0.13
+Adding German language (Thanks to Nachtgarm)
+
+1.3.0.12
+Adding Portuguese language (Thanks to PumpKHeaD)
+
+1.3.0.11
+Timeout function correction
+
+1.3.0.10
+Release date correction
+
+1.3.0.9
+Modification of the filename scrape
+
+1.3.0.8
+Adding Timeout function
+
+1.3.0.7
+Minor bug correction
+
+1.3.0.6
+Minor bug correction
+
+1.3.0.5
+Profil modification, %% replace fr/eu/us/jp automatically corresponding to the language selected
+
+1.3.0.4
+Adding a value in Ini :
+$RechSYS = 0 -> Always ask for system
+$RechSYS = 1 -> Try to auto detect system with the directory name
+$RechAPI = 1|2|3
+Searching order where :
+1 = CRC + System
+2 = CRC
+3 = FileName + System
+
+1.3.0.3
+Adding scraping by filename function (not only ZIP)
+Adding exlusion to the config ini
+Minor bug correction
+
+1.3.0.2Beta
+Testing Full scrape by name (not only ZIP)
+
+1.3.0.1
+Starting questions added
+
+1.3.0.0
+Adding Mix Image configuration menu
+Adding Mix Image template function
+Adding FIXE Image in Mix image template
+Adding deformation Image in mix image template
+Minor bug correction
+
+1.2.0.0
+Introducing MIX Image function
+
+1.1.1.6
+Correction in configuration windows
+adding "HINTS" in configuration windows
+
+1.1.1.5
+Adding an autoconfig Menu
+Adding a full scrape option
+Minor bug correction
+
+1.1.1.4
+Adding a value in Ini :
+$ExtImage = -> Like the original picture
+$ExtImage = jpg -> Picture in JPG
+$ExtImage = png -> Picture in PNG
+
+1.1.1.3
+Minor bug correction
+
+1.1.1.2
+Scrape in 2 times : 
+- CRC + System
+- only CRC
+
+1.1.1.1Beta
+Testing Double scrape
+
+1.1.1.0
+New Profil in Beta : ScreenScraper-Attract-Mode
+Adding automatic configuration with profil
+Adding automatic detection of system
+
+1.1.0.1
+Adding "missing.txt" files
+Minor bug correction
+
+1.1.0.0
+Scraping optimisation
+Adding an Append function
+Adding a "not found" function
+Minor bug correction
+
+1.0.0.8
+Minor bug correction
+
+1.0.0.7
+Adding a value in Ini :
+$Verbose = 0 -> no log
+$Verbose = 1 -> simple log
+$Verbose = 2 -> full log
+Wheel instead of system picture while scraping
+Minor bug correction
+
+1.0.0.6
+When launching a new UXS release check for modified files
+Picture of system while scraping
+Modification of the rating value ( 0 to 1 instead of 0 to 20)
+Correction of image substitution path
+
+1.0.0.5
+New Profil in Beta : ScreenScraper-Hyperspin
+Making header
+
+1.0.0.4
+Adding a value in Ini :
+$OPTION_MAJ = 0 -> Normal
+$OPTION_MAJ = 1 -> Uppercase data
+
+1.0.0.3
+Picture download correction (Waiting for full download)
+
+1.0.0.2
+Xml creation correction
+
+1.0.0.0
+First Release

@@ -1,0 +1,68 @@
+# BackUp file
+*_old*.au3
+
+# Test file
+simulation.txt
+log.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+BackUp
+
+# Added Ignored Files
+Include/MailSlot.au3.Backup.au3
+Include/_GraphGDIPlus.au3.Backup.au3
+Include/_MultiLang.au3.Backup.au3
+Include/_MyFunction.au3.Backup.au3
+Include/_XML.au3.Backup.au3
+Ressources/systemlist.xml
+Ressources/SSCheck.xml
+Scraper.exe
+Scraper64.exe
+
+Ressources/systemlist2.txt

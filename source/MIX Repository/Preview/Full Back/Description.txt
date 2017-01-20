@@ -1,0 +1,4 @@
+Author : Screech
+Description :
+A full template with fanart as BackGround. /!\ Need to be used with dedicated Theme. 
+Tuto : https://github.com/Universal-Rom-Tools/Universal-XML-Scraper/wiki/%5BTUTO%5D-Using-the-%22Background-(Modified-DarKade-Theme-by-Nachtgarm)%22-Mix-Template-and-the-corresponding-Theme

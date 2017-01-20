@@ -1,0 +1,198 @@
+<datapref>
+	<langpref>it|en</langpref>
+	<countrypref>%COUNTRY%|it|eu|us|jp|wor|ss</countrypref>
+</datapref>
+<error>
+	<err_title>Errore</err_title>
+	<err_PathRom>Il percorso delle Rom non è raggiungibile</err_PathRom>
+	<err_FillRomList>Nessun file trovato</err_FillRomList>
+	<err_autoconfPathRom>Il percorso delle Rom per l'autoconfigurazione non è raggiungibile</err_autoconfPathRom>
+	<err_UXSGlobal>Errore Fatale Universal XML Scraper !</err_UXSGlobal>
+	<err_Connection>(Problema nel collegamento al database)</err_Connection>
+	<err_TimeOut>(Tempo scaduto)</err_TimeOut>
+	<err_SystemList>(err_SystemList)</err_SystemList>
+	<err_PlinkGlobal>Il comando SSH ha avuto un problema</err_PlinkGlobal>
+	<err_PlinkConnection>(La connessione non può essere stabilita)</err_PlinkConnection>
+	<err_NotRegistered>Mi spiace, non riesco a trovare il tuo account (Ricontrolla login e password)</err_NotRegistered>
+</error>
+<message>
+	<mess_autoconf>Preparazione dell'autoconfigurazione in corso</mess_autoconf>
+	<mess_autoconf_ask_Title>Autoconfigurazione</mess_autoconf_ask_Title>
+	<mess_autoconf_ask_Question>Vuoi usare l'autoconfigurazione ?</mess_autoconf_ask_Question>
+	<mess_ssh_killall>Sei sicuro di voler arrestare EmulationStation ?</mess_ssh_killall>
+	<mess_ssh_start>Sei sicuro di voler avviare EmulationStation ?</mess_ssh_start>
+	<mess_ssh_reboot>Sei sicuro di voler riavviare la periferica remota ?</mess_ssh_reboot>
+	<mess_ssh_poweroff>Sei sicuro di voler spegnere la periferica remota ?</mess_ssh_poweroff>
+	<mess_update_Title>Aggiornamento necessario</mess_update_Title>
+	<mess_update_Question>Aggiornamento</mess_update_Question>
+	<mess_ssregister_title>Account collegato</mess_ssregister_title>
+	<mess_ssregister_OK>Il tuo account ti dà il massimo	</mess_ssregister_OK>
+	<mess_ssregister_GodMode>Ora sei: una divinità, una semidivinità (o almeno per 2/3) o Chuck Norris. Attento a cosa combini !!!</mess_ssregister_GodMode>
+</message>
+<gui>
+	<main_gui>Universal XML Scraper V2</main_gui>
+	<menu>
+	<mnu_file>File</mnu_file>
+	<mnu_file_exit>Esci</mnu_file_exit>
+
+	<mnu_cfg>Configurazione</mnu_cfg>
+	<mnu_cfg_Wizard>Lancia configurazione guidata</mnu_cfg_Wizard>
+	<mnu_cfg_config_LU>Configurazione Percorso</mnu_cfg_config_LU>
+	<mnu_cfg_config_MISC>Configurazione Generale</mnu_cfg_config_MISC>
+	<mnu_cfg_config_Option>Configurazione Opzioni</mnu_cfg_config_Option>
+	<mnu_cfg_config_PIC>Configurazione Immagini</mnu_cfg_config_PIC>
+	<mnu_cfg_config_autoconf>Configurazione Percorso di autoconfigurazione</mnu_cfg_config_autoconf>
+	<mnu_cfg_profil>Modifica il tuo profilo</mnu_cfg_profil>
+	<mnu_cfg_miximage>Modifica il tuo profilo Mix Immagine</mnu_cfg_miximage>
+	<mnu_cfg_download_miximage>Scaricare il tuo profilo Mix Immagine</mnu_cfg_download_miximage>
+	<mnu_cfg_langue>Modifica la tua lingua</mnu_cfg_langue>
+	
+	<mnu_scrape>Scansiona</mnu_scrape>
+	<mnu_scrape_autoconf>Seleziona il tuo sistema (Autoconf)</mnu_scrape_autoconf>
+	<mnu_scrape_solo>Scansiona	</mnu_scrape_solo>
+	<mnu_scrape_fullscrape>Scansiona tutti i tuoi sistemi</mnu_scrape_fullscrape>
+	
+	<mnu_ssh>Comando SSH</mnu_ssh>
+	<mnu_ssh_Parameter>SSH Parametro</mnu_ssh_Parameter>
+	<mnu_ssh_killall>Arresta EmulationStation</mnu_ssh_killall>
+	<mnu_ssh_start>Avvia EmulationStation</mnu_ssh_start>
+	<mnu_ssh_reboot>Riavvia Remoto</mnu_ssh_reboot>
+	<mnu_ssh_poweroff>Spegni Remoto</mnu_ssh_poweroff>
+	
+	<mnu_help>Aiuto</mnu_help>
+	<mnu_help_wiki>Aiuto (wiki)</mnu_help_wiki>
+	<mnu_help_support>Aiutaci</mnu_help_support>
+	<mnu_help_link>Links</mnu_help_link>
+	<mnu_help_about>About</mnu_help_about>
+	</menu>
+	<windows>
+	<scrap_button>Scansiona</scrap_button>
+	<scrap_cancel_button>Annulla</scrap_cancel_button>
+	<win_sel_langue>
+		<win_sel_langue_Title>Seleziona la tua lingua</win_sel_langue_Title>
+		<win_sel_langue_text>Seleziona la tua lingua</win_sel_langue_text>
+		<win_sel_langue_button>Seleziona</win_sel_langue_button>
+	</win_sel_langue>
+	<win_sel_profil>
+		<win_sel_profil_Title>Seleziona il tuo profilo</win_sel_profil_Title>
+		<win_sel_profil_text>Seleziona il tuo profilo</win_sel_profil_text>
+		<win_sel_profil_button>Seleziona</win_sel_profil_button>
+	</win_sel_profil>
+	<win_sel_system>
+		<win_sel_system_Title>Seleziona il tuo sistema</win_sel_system_Title>
+		<win_sel_system_text>Seleziona il tuo sistema</win_sel_system_text>
+		<win_sel_system_button>Seleziona</win_sel_system_button>
+	</win_sel_system>
+	<win_config>
+		<win_config_LU_Title>Configurazione Percorso</win_config_LU_Title>
+		<win_config_LU_GroupScrap>Scanner</win_config_LU_GroupScrap>
+		<win_config_LU_GroupScrap_Source_RootPath>Cartella delle Rom da scansionare</win_config_LU_GroupScrap_Source_RootPath>
+		<win_config_LU_GroupScrap_Source_RomPath>Cartella delle Rom da scansionare</win_config_LU_GroupScrap_Source_RomPath>
+		<win_config_LU_GroupScrap_Target_XMLName>Percorso del file XML</win_config_LU_GroupScrap_Target_XMLName>
+		<win_config_LU_GroupScrap_Target_RomPath>Percorso delle roms nel tuo file XML</win_config_LU_GroupScrap_Target_RomPath>
+		<win_config_LU_GroupImage>Immagini</win_config_LU_GroupImage>
+		<win_config_LU_GroupImage_Source_ImagePath>Cartella in cui saranno scaricate le immagini</win_config_LU_GroupImage_Source_ImagePath>
+		<win_config_LU_GroupImage_Target_ImagePath>Percorso delle immagini nel tuo file XML</win_config_LU_GroupImage_Target_ImagePath>
+		
+		<win_config_PIC_Title>Configurazione immagini</win_config_PIC_Title>
+		<win_config_PIC_GroupPICParam>Parametri immagine</win_config_PIC_GroupPICParam>
+		<win_config_PIC_GroupPICParam_PicSize>Dimensione immagine</win_config_PIC_GroupPICParam_PicSize>
+		<win_config_PIC_GroupPICParam_PicExt>Estensione immagine</win_config_PIC_GroupPICParam_PicExt>
+		
+		<win_config_Option_Title>Configurazione Opzioni</win_config_Option_Title>
+		<win_config_Option_GroupOption>Oggetto da modificare</win_config_Option_GroupOption>
+		<win_config_Option_GroupOption_Choice>Scelta oggetto</win_config_Option_GroupOption_Choice>
+		<win_config_Option_GroupParam>Parametro da modificare</win_config_Option_GroupParam>
+		
+		<win_config_MISC_Title>Configurazione Generale</win_config_MISC_Title>
+		<win_config_MISC_GroupMISC>Varie</win_config_MISC_GroupMISC>
+		<win_config_MISC_GroupMISC_CountryPref>Preferenze regionali</win_config_MISC_GroupMISC_CountryPref>
+		<win_config_MISC_GroupMISC_LangPref>Preferenze linguaggio</win_config_MISC_GroupMISC_LangPref>
+		<win_config_MISC_GroupMISC_ScrapeMode>Modalità di scansione</win_config_MISC_GroupMISC_ScrapeMode>
+		<win_config_MISC_GroupMISC_ScrapeModeChoice>0 - Nuovo File|1 - Aggiorna XML (Aggiungi Nuova Rom)|2 - solo creare questa immagine</win_config_MISC_GroupMISC_ScrapeModeChoice>
+		<win_config_MISC_GroupMISC_ScrapeSearchMode>Tipo di ricerca</win_config_MISC_GroupMISC_ScrapeSearchMode>
+		<win_config_MISC_GroupMISC_ScrapeSearchModeChoice>0 - CRC+FileName|1 - CRC|2 - FileName</win_config_MISC_GroupMISC_ScrapeSearchModeChoice>
+		<win_config_MISC_GroupMISC_CountryPicMode>Modo Immagine</win_config_MISC_GroupMISC_CountryPicMode>
+		<win_config_MISC_GroupMISC_CountryPicModeChoice>0 - Img Lingua|1 - Img Rom|2 - Img Lingua Strict|3 - Img Rom Strict</win_config_MISC_GroupMISC_CountryPicModeChoice>
+		<win_config_MISC_GroupMISC_Verbose>Livello di Log</win_config_MISC_GroupMISC_Verbose>
+		<win_config_MISC_GroupMISC_VerboseChoice>0 - Standard|1 - Avanzato|2 - Completo</win_config_MISC_GroupMISC_VerboseChoice>
+		<win_config_MISC_GroupMISC_MissingMode>Aggiungi rom mancanti nell'XML</win_config_MISC_GroupMISC_MissingMode>
+		<win_config_MISC_GroupMISC_RechSys>Auto seleziona il tuo sistema</win_config_MISC_GroupMISC_RechSys>
+		<win_config_MISC_GroupMISC_Mirror>Usa DigiMirror</win_config_MISC_GroupMISC_Mirror>
+		<win_config_MISC_GroupScreenScraper>Screenscraper</win_config_MISC_GroupScreenScraper>
+		<win_config_MISC_GroupScreenScraper_Login>Login di Screenscraper</win_config_MISC_GroupScreenScraper_Login>
+		<win_config_MISC_GroupScreenScraper_Password>Password di Screenscraper</win_config_MISC_GroupScreenScraper_Password>
+		<win_config_MISC_GroupScreenScraper_NbThread>Numero Thread</win_config_MISC_GroupScreenScraper_NbThread>
+		<win_config_MISC_GroupScreenScraper_Check>Verifica</win_config_MISC_GroupScreenScraper_Check>
+		<win_config_MISC_GroupScreenScraper_SSRegister>Registrati su Screenscraper</win_config_MISC_GroupScreenScraper_SSRegister>
+		<win_config_MISC_GroupRechFiles>Files scansionati</win_config_MISC_GroupRechFiles>
+		<win_config_MISC_GroupRechFiles_Include>Files inclusi</win_config_MISC_GroupRechFiles_Include>
+		<win_config_MISC_GroupRechFiles_Exclude>Files esclusi</win_config_MISC_GroupRechFiles_Exclude>
+		<win_config_MISC_GroupRechFiles_ExcludeFolder>Cartelle escluse</win_config_MISC_GroupRechFiles_ExcludeFolder>
+		
+		<win_config_autoconf_Title>Configurazione percorso di Autoconfigurazione</win_config_autoconf_Title>
+		<win_config_autoconf_Use>Utilizza autoconfigurazione</win_config_autoconf_Use>
+		<win_config_autoconf_GroupScrap>Scanner</win_config_autoconf_GroupScrap>
+		<win_config_autoconf_GroupScrap_Source_RootPath>Cartella Root di sistema</win_config_autoconf_GroupScrap_Source_RootPath>
+		<win_config_autoconf_GroupScrap_Target_XMLName>Nome del file XML</win_config_autoconf_GroupScrap_Target_XMLName>
+		<win_config_autoconf_GroupScrap_Target_RomPath>Percorso alle rom nel tuo file XML</win_config_autoconf_GroupScrap_Target_RomPath>
+		<win_config_autoconf_GroupImage>Immagine</win_config_autoconf_GroupImage>
+		<win_config_autoconf_GroupImage_Source_ImagePath>Nome della cartella dove le immagini verranno scaricate</win_config_autoconf_GroupImage_Source_ImagePath>
+		<win_config_autoconf_GroupImage_Target_ImagePath>Percorso all'immagine nel tuo file XML</win_config_autoconf_GroupImage_Target_ImagePath>
+		<win_config_Enreg>Salva</win_config_Enreg>
+		<win_config_Cancel>Annulla</win_config_Cancel>
+		<win_config_Advanced>Avanzato</win_config_Advanced>
+	</win_config>
+	<win_config_mix>
+		<win_config_mix_Title>Configurazione Mix Immagini</win_config_mix_Title>
+		<win_config_mix_empty>Esempio vuoto</win_config_mix_empty>
+		<win_config_mix_exemple>Esempio</win_config_mix_exemple>
+		<win_config_mix_Enreg>Salva</win_config_mix_Enreg>
+		<win_config_mix_Cancel>Annulla</win_config_mix_Cancel>
+	</win_config_mix>
+	<win_config_mix_Download>
+		<win_config_mix_Download_Title>Scaricare Mix Immagini</win_config_mix_Download_Title>
+		<win_config_mix_Download_empty>Empty Exemple</win_config_mix_Download_empty>
+		<win_config_mix_Download_exemple>Exemple</win_config_mix_Download_exemple>
+		<win_config_mix_Download_Download>Scaricare</win_config_mix_Download_Download>
+		<win_config_mix_Download_Exit>Uscita</win_config_mix_Download_Exit>
+	</win_config_mix_Download>
+	<win_About>
+		<win_About_Title>About</win_About_Title>
+		<win_About_By>Autore : Screech</win_About_By>
+		<win_About_Thanks>Grazie a :</win_About_Thanks>
+	</win_About>
+	<win_Results>
+		<win_Results_Title>Risultati scansione</win_Results_Title>
+		<win_Results_Text>Scansione conclusa</win_Results_Text>
+		<win_Results_FilesFound>Files trovati :	</win_Results_FilesFound>
+		<win_Results_RomsFound>Rom trovate :	</win_Results_RomsFound>
+		<win_Results_PercentFound>Percentuale Rom trovate :	</win_Results_PercentFound>
+		<win_Results_MoyTime>Tempo medio per Rom :	</win_Results_MoyTime>
+		<win_Results_FullTime>Tempo totale :	</win_Results_FullTime>
+		<win_Results_NbThread>Thread(s) usati :	</win_Results_NbThread>
+	</win_Results>
+	<win_Wizard>
+		<win_Wizard_Next>Avanti</win_Wizard_Next>
+		<win_Wizard_Back>Indietro</win_Wizard_Back>
+		<win_Wizard_End>OK</win_Wizard_End>
+		<win_Wizard_Cancel>Annulla</win_Wizard_Cancel>
+		<win_Wizard_Profil>
+		<win_Wizard_Profil_Title>Selezione profilo</win_Wizard_Profil_Title>
+		<win_Wizard_Profil_Desc>Qui puoi selezionare il profilo che corrisponde al tuo sistema operativo.|!||!|La MIX Version combina un'immagine con diverse altre come screenshot, scatola 3D e Logo del gioco.|!||!|Puoi modificare il profilo MIX nel menu : |!|"Modifica il tuo proilo Mix Immagine"|!|o proseguendo nella configurazione guidata.</win_Wizard_Profil_Desc>
+		</win_Wizard_Profil>
+		<win_Wizard_Autoconf>
+		<win_Wizard_Autoconf_Title>Percorso Autoconfigurazione</win_Wizard_Autoconf_Title>
+		<win_Wizard_Autoconf_Desc>L'autoconfigurazione ti permette di scansionare i tuoi sistemi senza perdere tempo nella configurazione dei percorsi.|!||!|Il percorso predefinito (previsto dal profilo che hai selezionato) è proprio sotto questo testo.|!|Puoi modificarlo con la cartella Root del tuo sistema.|!||!|Per esempio :|!|Le tue rom SNES sono in|!|E:\Emulation\Rom\SNES,|!|il tuo percorso di Root sarà|!|E:\Emulation\Rom</win_Wizard_Autoconf_Desc>
+		</win_Wizard_Autoconf>
+		<win_Wizard_MIX>
+		<win_Wizard_MIX_Title>Selezione profilo MIX Immagine</win_Wizard_MIX_Title>
+		<win_Wizard_MIX_Desc>Scelta profilo con MIX Immagine|!||!|Puoi scegliere l'immagine generata dal template di UXS nella schermata successiva.|!||!|ATTENZIONE, alcuni profili Mix Immagine richiedono un tema specifico nel FrontEnd.|!|(Per esempio, il profilo "Full Back" richiede un tema specifico)|!|Grazie e se necessario visita la pagina Wiki.</win_Wizard_MIX_Desc>
+		</win_Wizard_MIX>
+		<win_Wizard_END>
+		<win_Wizard_END_Title>Fine configurazione guidata</win_Wizard_END_Title>
+		<win_Wizard_END_Desc>La configurazione base di UXS è conclusa.|!||!|Puoi ora selezionare il tuo sistema in|!|"Scansiona"|!|->"Seleziona il tuo sistema (Autoconf)"|!|e lancia la tua prima Scansione.|!||!|Grazie per utilizzare Universal XML Scraper.</win_Wizard_END_Desc>
+		</win_Wizard_END>
+	</win_Wizard>
+</windows>
+</gui>

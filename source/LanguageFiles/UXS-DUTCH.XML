@@ -1,0 +1,203 @@
+<datapref>
+	<langpref>en</langpref>
+	<countrypref>%COUNTRY%|nl|eu|us|jp|wor|ss</countrypref>
+</datapref>
+
+<error>
+	<err_title>Error</err_title>
+	<err_PathRom>Roms pad kan niet gevonden worden</err_PathRom>
+	<err_FillRomList>Geen bestand gevonden</err_FillRomList>
+	<err_autoconfPathRom>Roms Pad voor automatische configuratie kan niet worden bereikt</err_autoconfPathRom>
+	<err_UXSGlobal>Universal XML Scraper fatale fout !</err_UXSGlobal>
+	<err_Connection>(Probleem verbinding met de database)</err_Connection>
+	<err_TimeOut>(Time Out)</err_TimeOut>
+	<err_SystemList>(err_SystemList)</err_SystemList>
+	<err_ScrapeEngine>(Scrape Engine opstarten mislukt. Kijk aub je virusscanner na)</err_ScrapeEngine>
+	<err_PlinkGlobal>SSH Command had een probleem</err_PlinkGlobal>
+	<err_PlinkConnection>(Connectie kan niet worden vastgesteld)</err_PlinkConnection>
+	<err_NotRegistered>Sorry, uw account kan niet gevonden worden (Kijk je login en paswoord na)</err_NotRegistered>
+</error>
+
+<message>
+	<mess_autoconf>Autoconfiguratie voorbereiding in uitvoering</mess_autoconf>
+	<mess_autoconf_ask_Title>Autoconfiguratie</mess_autoconf_ask_Title>
+	<mess_autoconf_ask_Question>Wil je autoconfiguratie gebruiken ?</mess_autoconf_ask_Question>
+	<mess_ssh_killall>Ben je zeker dat je EmulationStation wil stoppen ?</mess_ssh_killall>
+	<mess_ssh_start>Ben je zeker dat je EmulationStation starten ?</mess_ssh_start>
+	<mess_ssh_reboot>Ben je zeker dat je remote toestel wil herstarten ?</mess_ssh_reboot>
+	<mess_ssh_poweroff>Ben je zeker dat je remote toestel wil stoppen ?</mess_ssh_poweroff>
+	<mess_update_Title>Update nodig</mess_update_Title>
+	<mess_update_Question>Update</mess_update_Question>
+	<mess_ssregister_title>Account logged</mess_ssregister_title>
+	<mess_ssregister_OK>Je account geeft je maximum </mess_ssregister_OK>
+	<mess_ssregister_GodMode>Je bent : een god, een half-god (of toch tenminste een 2/3e god) of Chuck Norris. Opgepast !!!</mess_ssregister_GodMode>
+</message>
+
+<gui>
+	<main_gui>Universal XML Scraper V2</main_gui>
+	<menu>
+		<mnu_file>Bestand</mnu_file>
+		<mnu_file_exit>Exit</mnu_file_exit>
+		
+		<mnu_cfg>Configuratie</mnu_cfg>
+		<mnu_cfg_Wizard>Opstart wizard</mnu_cfg_Wizard>
+		<mnu_cfg_config_LU>Pad configuratie</mnu_cfg_config_LU>
+		<mnu_cfg_config_MISC>Algemeen configuratie</mnu_cfg_config_MISC>
+		<mnu_cfg_config_Option>Opties configuratie</mnu_cfg_config_Option>
+		<mnu_cfg_config_PIC>Afbeeldingen configuratie</mnu_cfg_config_PIC>
+		<mnu_cfg_config_autoconf>Autoconfiguratie Pad configuratie</mnu_cfg_config_autoconf>
+		<mnu_cfg_profil>Verander je profiel</mnu_cfg_profil>
+		<mnu_cfg_miximage>Verander je Mix Images profiel</mnu_cfg_miximage>
+		<mnu_cfg_download_miximage>Download Mix Images profiel</mnu_cfg_download_miximage>
+		<mnu_cfg_langue>Verander de taal</mnu_cfg_langue>
+		
+		<mnu_scrape>Scrape</mnu_scrape>
+		<mnu_scrape_autoconf>Selecteer je systeem (Autoconf)</mnu_scrape_autoconf>
+		<mnu_scrape_solo>Scrape </mnu_scrape_solo>
+		<mnu_scrape_fullscrape>Scrape al je systemen</mnu_scrape_fullscrape>
+		
+		<mnu_ssh>SSH Command</mnu_ssh>
+		<mnu_ssh_Parameter>SSH Parameter</mnu_ssh_Parameter>
+		<mnu_ssh_killall>Stop Emulationstation</mnu_ssh_killall>
+		<mnu_ssh_start>Start Emulationstation</mnu_ssh_start>
+		<mnu_ssh_reboot>Herstart Distant</mnu_ssh_reboot>
+		<mnu_ssh_poweroff>Stop Distant</mnu_ssh_poweroff>
+		
+		<mnu_help>Help</mnu_help>
+		<mnu_help_wiki>Help (wiki)</mnu_help_wiki>
+		<mnu_help_support>Help ons</mnu_help_support>
+		<mnu_help_link>Links</mnu_help_link>
+		<mnu_help_about>Over</mnu_help_about>
+	</menu>
+	<windows>
+		<scrap_button>Scrape</scrap_button>
+		<scrap_cancel_button>Annuleer</scrap_cancel_button>
+		<win_sel_langue>
+			<win_sel_langue_Title>Selecteer je taal</win_sel_langue_Title>
+			<win_sel_langue_text>Selecteer je taal</win_sel_langue_text>
+			<win_sel_langue_button>Selecteer</win_sel_langue_button>
+		</win_sel_langue>
+		<win_sel_profil>
+			<win_sel_profil_Title>Selecteer je profiel</win_sel_profil_Title>
+			<win_sel_profil_text>Selecteer je profiel</win_sel_profil_text>
+			<win_sel_profil_button>Selecteer</win_sel_profil_button>
+		</win_sel_profil>
+		<win_sel_system>
+			<win_sel_system_Title>Selecteer je systeem</win_sel_system_Title>
+			<win_sel_system_text>Selecteer je systeem</win_sel_system_text>
+			<win_sel_system_button>Selecteer</win_sel_system_button>
+		</win_sel_system>
+		<win_config>
+			<win_config_LU_Title>Pad configuratie</win_config_LU_Title>
+			<win_config_LU_GroupScrap>Scraper</win_config_LU_GroupScrap>
+			<win_config_LU_GroupScrap_Source_RootPath>Roms directory om te scrapen</win_config_LU_GroupScrap_Source_RootPath>
+			<win_config_LU_GroupScrap_Source_RomPath>Roms directory om te scrapen</win_config_LU_GroupScrap_Source_RomPath>
+			<win_config_LU_GroupScrap_Target_XMLName>XML bestand pad</win_config_LU_GroupScrap_Target_XMLName>
+			<win_config_LU_GroupScrap_Target_RomPath>Pad naar de roms in je XML bestand</win_config_LU_GroupScrap_Target_RomPath>
+			<win_config_LU_GroupImage>Afbeeldingen</win_config_LU_GroupImage>
+			<win_config_LU_GroupImage_Source_ImagePath>Directory waar de afbeeldingen zullen gedownload worden</win_config_LU_GroupImage_Source_ImagePath>
+			<win_config_LU_GroupImage_Target_ImagePath>Pad naar de afbeeldingenin je XML bestand</win_config_LU_GroupImage_Target_ImagePath>
+			
+			<win_config_PIC_Title>Afbeeldingen configuratie</win_config_PIC_Title>
+			<win_config_PIC_GroupPICParam>Afbeelding parameters</win_config_PIC_GroupPICParam>
+			<win_config_PIC_GroupPICParam_PicSize>Afbeelding Grootte</win_config_PIC_GroupPICParam_PicSize>
+			<win_config_PIC_GroupPICParam_PicExt>Afbeeldingen uitbreiding</win_config_PIC_GroupPICParam_PicExt>
+			
+			<win_config_Option_Title>Opties configuratie</win_config_Option_Title>
+			<win_config_Option_GroupOption>Item te veranderen</win_config_Option_GroupOption>
+			<win_config_Option_GroupOption_Choice>Item Keuze</win_config_Option_GroupOption_Choice>
+			<win_config_Option_GroupParam>Parameter te veranderen</win_config_Option_GroupParam>
+			
+			<win_config_MISC_Title>Algemene configuratie</win_config_MISC_Title>
+			<win_config_MISC_GroupMISC>Misc</win_config_MISC_GroupMISC>
+			<win_config_MISC_GroupMISC_CountryPref>Land voorkeuren</win_config_MISC_GroupMISC_CountryPref>
+			<win_config_MISC_GroupMISC_LangPref>Taal voorkeuren</win_config_MISC_GroupMISC_LangPref>
+			<win_config_MISC_GroupMISC_ScrapeMode>Scrape Mode</win_config_MISC_GroupMISC_ScrapeMode>
+			<win_config_MISC_GroupMISC_ScrapeModeChoice>0 - Nieuw XML File|1 - Update XML (Nieuwe Rom toevoegen)|2 - Creër enkel afbeelding</win_config_MISC_GroupMISC_ScrapeModeChoice>
+			<win_config_MISC_GroupMISC_ScrapeSearchMode>Onderzoek Mode</win_config_MISC_GroupMISC_ScrapeSearchMode>
+			<win_config_MISC_GroupMISC_ScrapeSearchModeChoice>0 - CRC+Bestandsnaam|1 - CRC|2 - Bestandsnaam</win_config_MISC_GroupMISC_ScrapeSearchModeChoice>
+			<win_config_MISC_GroupMISC_CountryPicMode>Afbeelding Mode</win_config_MISC_GroupMISC_CountryPicMode>
+			<win_config_MISC_GroupMISC_CountryPicModeChoice>0 - Taal Afb|1 - Rom Afb|2 - Taal Afb Strict|3 - Rom Afb Strict</win_config_MISC_GroupMISC_CountryPicModeChoice>
+			<win_config_MISC_GroupMISC_Verbose>Log level</win_config_MISC_GroupMISC_Verbose>
+			<win_config_MISC_GroupMISC_VerboseChoice>0 - Standaard|1 - Geavanceerd|2 - Alles</win_config_MISC_GroupMISC_VerboseChoice>
+			<win_config_MISC_GroupMISC_MissingMode>Voeg missende roms toe in XML</win_config_MISC_GroupMISC_MissingMode>
+			<win_config_MISC_GroupMISC_RechSys>Auto select je system</win_config_MISC_GroupMISC_RechSys>
+			<win_config_MISC_GroupMISC_Mirror>Gebruik DigiMirror</win_config_MISC_GroupMISC_Mirror>
+			<win_config_MISC_GroupScreenScraper>Screenscraper</win_config_MISC_GroupScreenScraper>
+			<win_config_MISC_GroupScreenScraper_Login>Screenscraper Username</win_config_MISC_GroupScreenScraper_Login>
+			<win_config_MISC_GroupScreenScraper_Password>Screenscraper Paswoord</win_config_MISC_GroupScreenScraper_Password>
+			<win_config_MISC_GroupScreenScraper_NbThread>Thread nummer</win_config_MISC_GroupScreenScraper_NbThread>
+			<win_config_MISC_GroupScreenScraper_Check>Controleer</win_config_MISC_GroupScreenScraper_Check>
+			<win_config_MISC_GroupScreenScraper_SSRegister>Screenscraper Registreer</win_config_MISC_GroupScreenScraper_SSRegister>
+			<win_config_MISC_GroupRechFiles>Gescrapete bestanden</win_config_MISC_GroupRechFiles>
+			<win_config_MISC_GroupRechFiles_Include>Bijgevoegde bestanden</win_config_MISC_GroupRechFiles_Include>
+			<win_config_MISC_GroupRechFiles_Exclude>Excluded files</win_config_MISC_GroupRechFiles_Exclude>
+			<win_config_MISC_GroupRechFiles_ExcludeFolder>Uitgesloten mappen</win_config_MISC_GroupRechFiles_ExcludeFolder>
+			
+			<win_config_autoconf_Title>Autoconfiguratie pad configuratie</win_config_autoconf_Title>
+			<win_config_autoconf_Use>Gebruik autoconfiguratie</win_config_autoconf_Use>
+			<win_config_autoconf_GroupScrap>Scraper</win_config_autoconf_GroupScrap>
+			<win_config_autoconf_GroupScrap_Source_RootPath>Root Systeem directory</win_config_autoconf_GroupScrap_Source_RootPath>
+			<win_config_autoconf_GroupScrap_Target_XMLName>XML bestandsnaam</win_config_autoconf_GroupScrap_Target_XMLName>
+			<win_config_autoconf_GroupScrap_Target_RomPath>Pad naar de roms in je XML bestand</win_config_autoconf_GroupScrap_Target_RomPath>
+			<win_config_autoconf_GroupImage>Afbeelding</win_config_autoconf_GroupImage>
+			<win_config_autoconf_GroupImage_Source_ImagePath>Mapnaam waar de afbeeldingen naar gedownload worden</win_config_autoconf_GroupImage_Source_ImagePath>
+			<win_config_autoconf_GroupImage_Target_ImagePath>Pad naar de afbeeldingen in je XML bestand</win_config_autoconf_GroupImage_Target_ImagePath>
+
+			<win_config_Enreg>Opslaan</win_config_Enreg>
+			<win_config_Cancel>Annuleren</win_config_Cancel>
+			<win_config_Advanced>Geavanceerd</win_config_Advanced>
+		</win_config>
+		<win_config_mix>
+			<win_config_mix_Title>Mix Image configuratie</win_config_mix_Title>
+			<win_config_mix_empty>Leeg Voorbeeld</win_config_mix_empty>
+			<win_config_mix_exemple>Voorbeeld</win_config_mix_exemple>
+			<win_config_mix_Enreg>Opslaan</win_config_mix_Enreg>
+			<win_config_mix_Cancel>Annuleer</win_config_mix_Cancel>
+		</win_config_mix>
+		<win_config_mix_Download>
+			<win_config_mix_Download_Title>Download Mix Template</win_config_mix_Download_Title>
+			<win_config_mix_Download_empty>Leeg Voorbeeld</win_config_mix_Download_empty>
+			<win_config_mix_Download_exemple>Voorbeeld</win_config_mix_Download_exemple>
+			<win_config_mix_Download_Download>Download</win_config_mix_Download_Download>
+			<win_config_mix_Download_Exit>Exit</win_config_mix_Download_Exit>
+		</win_config_mix_Download>
+		<win_About>
+			<win_About_Title>Over</win_About_Title>
+			<win_About_By>Autor : Screech</win_About_By>
+			<win_About_Thanks>Bedankt aan :</win_About_Thanks>
+		</win_About>
+		<win_Results>
+			<win_Results_Title>Scrape Resultaten</win_Results_Title>
+			<win_Results_Text>Scrape beëindigd</win_Results_Text>
+			<win_Results_FilesFound>Bestanden gevonden : </win_Results_FilesFound>
+			<win_Results_RomsFound>Roms gevonden : </win_Results_RomsFound>
+			<win_Results_PercentFound>Roms gevonden percentage : </win_Results_PercentFound>
+			<win_Results_MoyTime>Gemiddelde tijd per Roms : </win_Results_MoyTime>
+			<win_Results_FullTime>Totale Tijd : </win_Results_FullTime>
+			<win_Results_NbThread>Thread(s) gebruikt : </win_Results_NbThread>
+		</win_Results>
+		<win_Wizard>
+			<win_Wizard_Next>Volgende</win_Wizard_Next>
+			<win_Wizard_Back>Terug</win_Wizard_Back>
+			<win_Wizard_End>OK</win_Wizard_End>
+			<win_Wizard_Cancel>Annuleer</win_Wizard_Cancel>
+			<win_Wizard_Profil>
+				<win_Wizard_Profil_Title>Profiel Selectie</win_Wizard_Profil_Title>
+				<win_Wizard_Profil_Desc>Hier kan je je profiel selecteren dat overeenkomt met je OS.|!||!|MIX Version maakt afbeeldingen met verschillende bronnen, bvb screenshot, 3D box en Game logo.|!||!|Je kan het MIX Profil veranderen in het menu : |!|"Verander je Mix Images profiel"|!|of later in deze Wizard.</win_Wizard_Profil_Desc>
+			</win_Wizard_Profil>
+			<win_Wizard_Autoconf>
+				<win_Wizard_Autoconf_Title>Autoconfiguratie Pad</win_Wizard_Autoconf_Title>
+				<win_Wizard_Autoconf_Desc>De Autoconfiguratie laat je je systeem scrapen zonder dat je tijd moet doorbrengen in het Pad configuratie.|!||!|Standaard pad (geselecteerd van je geselecteerde profiel) is direct onder tdeze tekst.|!|Je kan het veranderen met je systeem root directory.|!||!|Voorbeeld :|!|Je SNES roms zijn in|!|E:\Emulation\Rom\SNES,|!|dus het root pad zal zijn|!|E:\Emulation\Rom</win_Wizard_Autoconf_Desc>
+			</win_Wizard_Autoconf>
+			<win_Wizard_MIX>
+				<win_Wizard_MIX_Title>MIX Image Profiel Selectie</win_Wizard_MIX_Title>
+				<win_Wizard_MIX_Desc>Je kan een proefiel kiezen met MIX Image|!||!|Je kan kiezen wat voor afbeelding UXS template genereert in het volgende venster.|!||!|Opgepast, sommige MIX Image profielen hebben een specifiek thema nodig in je frontend.|!|(Voorbeeld, Het "Full Back" Profiel heeft een specifiek thema nodig)|!|Ja kan de wiki beozken indien nodig.</win_Wizard_MIX_Desc>
+			</win_Wizard_MIX>
+			<win_Wizard_END>
+				<win_Wizard_END_Title>Wizard Einde</win_Wizard_END_Title>
+				<win_Wizard_END_Desc>De basis UXS configuratie is nu gedaan.|!||!|Je kan nu uw systeem selecteren in|!|"Scrape"|!|->"Selecteer je systeem (Autoconf)"|!|en start je eerste Scrape.|!||!|Bedankt voor het gebruik van Universal XML Scraper.</win_Wizard_END_Desc>
+			</win_Wizard_END>
+		</win_Wizard>
+	</windows>
+</gui>
